@@ -1,0 +1,40 @@
+/* Universal Selector*/
+*{
+  color: blueviolet;
+}
+/* Element Selector*/
+h1{
+  color: pink;
+}
+/* Class Selector*/
+.parag{
+  color: chocolate;
+}
+/* ID selector */
+#example{
+  color: aqua;
+}
+/* Attrivute Selector */
+[href] {
+  color: gold;
+}
+
+h2,#h3{
+  font-size: 20px;
+  background-color: rgb(197, 146, 70);
+}
+
+/* Psuedo Classes */
+#h3.hover{
+  background-color: skyblue;
+  color: black;
+}
+
+/* Earlier Rule */
+h5{
+  color: blue;
+}
+/* Later Rule */
+h5{
+  color: saddlebrown;
+}
